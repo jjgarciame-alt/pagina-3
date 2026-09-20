@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio Web - Inicio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Requisito 1 y 3: Enlace Saltar al contenido principal (Skip link) -->
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+  <header>
+    <h1>Bienvenido a Mi Galería Web</h1>
+    <!-- Requisito 4 y 7: Navegación accesible estilizada con Flexbox -->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="grid.html">Galería Grid</a></li>
+        <li><a href="flex.html">Galería Flex</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section>
+      <h2>Página de Inicio</h2>
+      <p>Explora este sitio web diseñado para demostrar el uso de CSS Grid, Flexbox y accesibilidad web.</p>
+      
+      <div class="card">
+        <!-- Requisito 1: Al menos una imagen por página -->
+        <img src="https://picsum.photos/id/1018/600/400" alt="Paisaje natural de montañas con niebla y un lago">
+        <p>Vista panorámica de la naturaleza. Pasa el ratón sobre la imagen para ver un efecto.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
